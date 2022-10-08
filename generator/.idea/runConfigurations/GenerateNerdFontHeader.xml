@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GenerateNerdFontHeader" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="generator" />
+    <working_directory value="$PROJECT_DIR$" />
+    <parameters value="-url=&quot;https://www.nerdfonts.com/cheat-sheet&quot; -output=&quot;../nerdfont-codepoints/include/NerdFont.h&quot;" />
+    <kind value="FILE" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/GenerateNerdFontsHeader.go" />
+    <method v="2" />
+  </configuration>
+</component>
