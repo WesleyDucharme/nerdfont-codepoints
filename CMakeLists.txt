@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.23)
 
+# Rewrite using https://dominikberner.ch/cmake-interface-lib/
+
 set(nerdfont-codepoints_VERSION 1.0.0)
 
 project(nerdfont-codepoints

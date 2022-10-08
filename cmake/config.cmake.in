@@ -1,4 +1,4 @@
 @PACKAGE_INIT@
 
-include(${CMAKE_CURRENT_LIST_DIR}/nerdfont_codepoints-targets.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/nerdfont-codepoints-targets.cmake)
 check_required_components(nerdfont_codepoints)
