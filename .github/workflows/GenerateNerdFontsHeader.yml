@@ -1,9 +1,7 @@
 name: Update generated nerdfont header
 
 on:
-  push:
-      tags:
-      - '*'
+  workflow_dispatch:
 
 jobs:
 
