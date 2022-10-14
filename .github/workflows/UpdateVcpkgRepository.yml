@@ -10,10 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: List directory
-        run: ll
-      
       - name: Update vcpkg repository
-        uses: WesleyDucharme/action-update-vcpkg-repository@v0.2
+        uses: WesleyDucharme/action-update-vcpkg-repository@v0.3
         with:
           remote-vcpkg-repository: 'git@github.com:WesleyDucharme/vcpkg-repository.git'
