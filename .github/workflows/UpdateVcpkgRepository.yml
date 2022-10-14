@@ -1,0 +1,14 @@
+name: Update Vcpkg Repository
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-vcpkg-repository:
+    runs-on: ubuntu-latest
+    name: Update vcpkg repository
+    steps:
+      - name: Update vcpkg repository
+        uses: WesleyDucharme/action-update-vcpkg-repository@v0.2
+        with:
+          remote-vcpkg-repository: 'git@github.com:WesleyDucharme/vcpkg-repository.git'
