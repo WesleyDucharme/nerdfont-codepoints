@@ -1,6 +1,0 @@
-{
-  "name": "nerdfont-codepoints",
-  "version": "1.0.0",
-  "description": "A header only library that exposes nerd font utf8 and utf16 codepoints",
-  "homepage": "https://github.com/WesleyDucharme/nerdfont-codepoints"
-}
