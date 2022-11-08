@@ -40,3 +40,5 @@ install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 install(EXPORT nerdfont-codepoints-targets
         NAMESPACE nerdfont-codepoints::
         DESTINATION ${CMAKE_INSTALL_DATADIR}/nerdfont-codepoints)
+
+message("WESLEY DEBUG: ${CMAKE_INSTALL_DATADIR}")
