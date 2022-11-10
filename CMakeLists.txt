@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-set(nerdfont-codepoints_VERSION 0.0.1)
+set(nerdfont-codepoints_VERSION 0.0.2)
 
 project(nerdfont-codepoints
         VERSION ${nerdfont-codepoints_VERSION}
